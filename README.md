@@ -10,7 +10,7 @@ This project explores one of the most common but often underestimated challenges
 
 A major inspiration for this project came from an episode of the **Data Engineering Podcast**, where **Sriram Panyam** described the biggest challenge in data migration as a **data systems issue** rather than simply a data transformation and moving task. That perspective strongly resonated with me.
 
-While modern tools have been developed to address some of these challenges, a SQL-based approach can significantly reduce costs by minimizing reliance on external data migration and integration tools.
+While there are some modern tools that have been developed to address part of these challenges, the solution provided in this project is a T-SQL based approach can significantly reduce cost by minimizing reliance on external tools.
 
 ## Problem Statement
 
