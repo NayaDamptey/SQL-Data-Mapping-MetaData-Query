@@ -28,15 +28,21 @@ This project takes a practical approach to solving that problem using **T-SQL to
 ## What’s Included
 
 📁 sql-data-migration-portfolio/
+
 ├── README.md                     # This file
+
 ├── data/
 │   ├── source_data.bak           # Simulated source system data (pre-migration data)
 │   └── target_data.bak           # Simulated target system data (post-migration, newly mapped data)
+
+
 ├── sql/
 │   ├── 01_create_schema.sql      # Create target schemas
 │   ├── 02_load_data.sql          # Restore data 
 │   ├── 03_metadata_discovery.sql # T-SQL to query system metadata
 │   ├── 04_mapping_logic.sql      # Data transformation and mapping logic
 │   └── 05_validation_queries.sql # Data integrity checks
+
+
 └── images/
     └── data_flow_diagram.png     # Diagram of mapping and flow
