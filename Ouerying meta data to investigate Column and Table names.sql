@@ -4,14 +4,14 @@ USE SQLMapping
  Overview:
 The overall goal of this project is to migrate placement data from the source database to the target database. 
 However, the migration process is complicated by schema differences between the two databases. 
-This necessitate a thorough analysis and careful mapping to ensure that data is migrated accurately and without integrity issues.
+This necessitates thorough analysis and careful mapping to ensure that data is migrated accurately and without integrity issues.
 
 SQL Script Goal:
 For this script, the objective is to identify the specific column or table within the source database that contains the UserName data, 
 which needs to be mapped and populated into the corresponding field within the target database.
 Based on the provided project diagram, mappings indicate that the UserName data is stored in the Consultant table in the source database.
 However, in scenarios where there is limited familiarity with the source schema,
-it becomes imperative to first conduct a thorough analysis to identify the exact location of the full name of consultants within the source system.
+it becomes imperative to first conduct a thorough analysis to identify the exact location of the consultants table within the source system.
 
 This investigation is crucial to ensure the correct identification and mapping of the UserName field,
 ultimately ensuring the accuracy of data migration to the appropriate field in the target system's placement table.
@@ -21,7 +21,7 @@ To address this issue, the stored procedure created below will be executed to id
 The procedure searches for relevant columns by looking for common keywords typically associated with user information.
 It will focus on table and column names that are indicative of user-related fields, ensuring accurate mapping of the source to target.
 
-**BONUS**  If you already know the expected number of rows, there is a third procedure to identify fields in a source that match your record ccount expectations.
+**BONUS**  If you already know the expected number of records, there is a third procedure to identify fields in a source that match your record ccount expectations.
 By checking the column and table names and the number of records expected, you can quickly identify the fields that are most likely relevant for accurate mapping.
 */
 
@@ -62,7 +62,7 @@ EXEC Portfolio.FindDBTablesByName @TableNamePattern = '%Consul%'
 
 
 
---The nect bit of code will also search the DB schema for column names
+--The next bit of code will also search the DB schema for column names
 DROP PROCEDURE Portfolio.FindDBColumnsByName
 
 PRINT 'Create a stored procedure that finds columns by name patterns'
@@ -103,7 +103,7 @@ EXEC Portfolio.FindDBColumnsByName @ColumnNamePattern = '%Name%'
 
 DROP PROCEDURE IF EXISTS Portfolio.FindDBTandCByRowCount
 
-PRINT 'This a combined strategy od the stored procedures created above to find tables and columns by name patterns and filter by row count for better accuracy'
+PRINT 'This a combined strategy of the stored procedures created above to find tables and columns by name patterns and filter by row count for better accuracy'
 
 CREATE PROCEDURE portfolio.FindDBTandCByRowCount
     @TableNamePattern NVARCHAR(255),
