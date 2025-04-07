@@ -6,7 +6,7 @@ SQL Data Migration Portfolio is a project showcasing practical solutions to real
 
 ## Overview
 
-This project explores one of the most common but often underestimated challenges in data migration: understanding where data sits across systems and how it should be mapped to a new environment. As a professional working  as a **Data Migration Specialist** for about two years now, this is a scenario I’ve encountered time and again in real-world projects. 
+This project explores one of the most common but often underestimated challenges in data migration: understanding where data sits across systems and how it should be mapped to a new environment. As a professional **Data Migration Specialist** this is a scenario I’ve encountered time and again in real-world projects. 
 
 A major inspiration for this project came from an episode of the **Data Engineering Podcast**, where **Sriram Panyam** described the biggest challenge in data migration as a **data systems issue** rather than simply a data transformation and moving task. That perspective strongly resonated with me.
 
