@@ -1,16 +1,16 @@
-# SQL-Data-Migration
-SQL Data Migration Portfolio is a project showcasing practical solutions to real-world data migration challenges. This repository demonstrates how T-SQL can be used to query metadata, understand the structure of source and legacy systems, and map data accurately across databases.
+# SQL-Data-Mapping & MetaData-Query
+SQL Data-Mapping & MetaData-Query is a project showcasing practical solutions to real-world data migration challenges. This repository demonstrates how T-SQL can be used to query metadata, understand the structure of source and legacy systems, and map data accurately across databases.
 
 
-# Data Migration Mapping & Metadata Discovery with T-SQL
+# Data Mapping & Metadata Querying with T-SQL
 
 ## Overview
 
-This project explores one of the most common but often underestimated challenges in data migration: understanding where data sits across systems and how it should be mapped to a new system. As a professional **Data Migration Specialist** this is a scenario I’ve encountered time and again in real-world projects. 
+This project explores one of the most common but often underestimated challenges in data migration: understanding where data sits across systems and how it should be mapped to a new system. As a professional **Data Migration Specialist**, this is a scenario I’ve encountered time and again in real-world projects. 
 
 A major inspiration for this project came from an episode of the **Data Engineering Podcast**, where **Sriram Panyam** described the biggest challenge in data migration as a **data systems issue** rather than simply a data transformation and moving task. That perspective strongly resonated with me.
 
-While there are some modern tools that have been developed to address part of these challenges, the solution provided in this project is a T-SQL based approach that can significantly reduce cost by minimizing reliance on external tools.
+While there are some tools that have been developed to address data mapping challenges, the solution provided in this project is a T-SQL based approach that can significantly reduce cost by minimizing reliance on external tools.
 
 ## Problem Statement
 
