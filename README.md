@@ -23,6 +23,7 @@ This project takes a practical approach to solving that problem using **T-SQL to
 - Use T-SQL to explore **schema metadata** and answer questions like:
   - Where does a specific field live in the database?
   - What tables reference this column?
+  - How can T-SQL be used to map and migrate data from one system database into another system's database?
 
 
 ## What’s Included
@@ -38,6 +39,5 @@ This project takes a practical approach to solving that problem using **T-SQL to
 │   ├── 02_load_data.sql                   # Restore data 
 │   ├── 03_metadata_discovery.sql          # T-SQL to query system metadata
 │   ├── 04_mapping_logic.sql               # Data transformation and mapping logic
-│   └── 05_validation_queries.sql          # Data integrity checks
 └── images/
     └── data_flow_diagram.png              # Diagram of mapping and flow
