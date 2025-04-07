@@ -78,15 +78,15 @@ SELECT
     js.JobID				AS OccupationID
     ,js.ProspectID			AS CandidateID
     ,js.ClientID			AS CompanyID
-    ,''					    AS PlacementFullName -- This will be updated later
+    ,''					AS PlacementFullName -- This will be updated later
     ,js.Notes				AS Notes
     ,js. Job_Role			AS Occupation
     ,js.OwnerID				AS UserID
     ,c.Fullname				AS UserName
-    ,js.[Start_Date]		AS [Start_Date]
+    ,js.[Start_Date]			AS [Start_Date]
     , js.End_Date			AS End_Date
-    ,NULL					AS StatusID
-    ,NULL					AS SourceID
+    ,NULL				AS StatusID
+    ,NULL				AS SourceID
 FROM [SQLMapping].Portfolio.Job_Seekers js
 LEFT JOIN [SQLMapping].Portfolio.Consultants c ON js.OwnerID =  c.ID
 GO
