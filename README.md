@@ -35,7 +35,7 @@ Key objectives include:
 
  ### 📂 **Data Files:**
 - **[source_data.bak](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/Data/SourceData.bak)**: Simulated source system data (pre-migration).
-- **[target_data.bak](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/Data/TargetDb.bak)**: Simulated target system data (post-migration, newly mapped).
+- **[target_data.bak](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/Data/TargetDb)**: Simulated target system data (post-migration, newly mapped).
  ### 📂 **Schema Definition:**
 - **[Source_Database.sql](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/Schema/Source%20Database.sql)**: The schema definition for source database.
 - **[TargetDB.sql](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/Schema/Target%20Database.sql)**: The schema definition for Target database.
