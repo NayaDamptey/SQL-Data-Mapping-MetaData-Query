@@ -4,7 +4,7 @@ USE SQLMapping
  Overview:
 The overall goal of this project is to migrate placement data from the source database to the target database. 
 However, the migration process is complicated by schema differences between the two databases. 
-This necessitate a thorough analysis and careful mapping to ensure that data is migrated accurately and without integrity issues.
+This necessitates a thorough analysis and careful mapping to ensure that data is migrated accurately and without integrity issues.
 
 SQL Script Goal:
 For this script, the objective is to identify the specific column or table within the source database that contains the UserName data, 
