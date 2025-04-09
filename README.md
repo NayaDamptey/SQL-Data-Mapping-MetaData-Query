@@ -18,12 +18,17 @@ In many of the migrations I have worked on, I mostly encountered inadequate docu
 
 This project takes a practical approach to solving this problem using **T-SQL to explore and extract metadata** from SQL Server environments.
 
+
 ## Objectives
 
-- Use T-SQL to explore **schema metadata** and answer questions like:
-  - Where does a specific field live in the database?
-  - What tables reference this column?
-  - How can T-SQL be used to map and migrate data from one system's database into another system's database?
+The goal of this project is to utilize T-SQL to query **schema metadata** enabling more accurate and efficient data mapping. 
+Key objectives include:
+
+- **Investigating schema metadata** using T-SQL to answer the key question:
+  - Where is a specific field located within the database?
+  
+- **Mapping and migrating data**
+  - Use T-SQL, to efficiently map and transform data from one system's database to another focusing on schema differences.
 
 
 ## What’s Included
@@ -34,6 +39,6 @@ This project takes a practical approach to solving this problem using **T-SQL to
  ### 📂 **Schema Definition:**
 - **[Source_Database.sql](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/Schema/Source%20Database.sql)**: The schema definition for source database.
 - **[TargetDB.sql](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/Schema/Target%20Database.sql)**: The schema definition for Target database.
- ###🗺️ Data Mapping Diagram:
-- **[Data Mapping](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/SQL%20Mapping.drawio.png)**: Mapping Diagram
+### 🗺️ **Data Mapping Diagram:**
+- **[Data Mapping Diagram](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/SQL%20Mapping.drawio.png)**: Visual representation of the data mapping process.
 
