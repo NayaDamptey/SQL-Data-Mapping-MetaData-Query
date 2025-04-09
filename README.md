@@ -31,8 +31,9 @@ This project takes a practical approach to solving this problem using **T-SQL to
  ### 📂 **Data Files:**
 - **[source_data.bak](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/Data/SourceData.bak)**: Simulated source system data (pre-migration).
 - **[target_data.bak](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/Data/TargetDb.bak)**: Simulated target system data (post-migration, newly mapped).
- ### 📂 **Schema Creation:**
-- **[Source_Database.sql](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/Source%20Database.sql)**: The schema definition for source database.
-- **[TargetDB.sql](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/TargetDB.sql)**: The schema definition for Target database.
+ ### 📂 **Schema Definition:**
+- **[Source_Database.sql](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/Schema/Source%20Database.sql)**: The schema definition for source database.
+- **[TargetDB.sql](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/Schema/Target%20Database.sql)**: The schema definition for Target database.
+ ###🗺️ Data Mapping Diagram:
 - **[Data Mapping](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/SQL%20Mapping.drawio.png)**: Mapping Diagram
 
