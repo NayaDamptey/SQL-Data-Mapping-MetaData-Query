@@ -28,16 +28,12 @@ This project takes a practical approach to solving this problem using **T-SQL to
 
 ## What’s Included
 
-📁 sql-data-migration-portfolio/
+📁 sql-data-mapping-portfolio/
 
-├── README.md                              # This file
-├── data/
-│   ├── source_data.bak                    # Simulated source system data (pre-migration data)
-│   └── target_data.bak                    # Simulated target system data (post-migration, newly mapped data)
-├── sql/
-│   ├── 01_create_schema.sql               # Create source and target schemas
-│   ├── 02_load_data.sql                   # Restore database
-│   ├── 03_metadata_discovery.sql          # T-SQL stored procedure to query system metadata
-│   ├── 04_mapping_logic.sql               # Data transformation and mapping logic in T-SQL
-└── images/
-    └── data_flow_diagram.png              # Diagram of mapping and flow
+ ### 📂 **Data Files:**
+- **[source_data.bak](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/SourceData.bak)**: Simulated source system data (pre-migration).
+- **[target_data.bak](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/TargetDb.bak)**: Simulated target system data (post-migration, newly mapped).
+- **[Source_Database.sql](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/Source%20Database.sql)**: The schema definition for source database.
+- **[TargetDB.sql](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/TargetDB.sql.sql)**: The schema definition for Target database.
+- **[Data Mapping](https://github.com/NayaDamptey/SQL-Data-Mapping-MetaData-Query/blob/main/SQL%20Mapping.drawio.png)**: Mapping Diagram
+
