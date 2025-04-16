@@ -3,8 +3,10 @@ USE [TargetDB]
 SET IDENTITY_INSERT portfolio.[Status] OFF
 SET IDENTITY_INSERT portfolio.[Sources] OFF
 SET IDENTITY_INSERT portfolio.[Job_Candidates] OFF
-
+GO
+	
 PRINT 'Now Insert into the status table'
+GO
 TRUNCATE TABLE Portfolio.[Status] 
 INSERT INTO Portfolio.[Status] (Status_Name) 
 SELECT DISTINCT [Status]
@@ -13,6 +15,7 @@ GO
 
 
 PRINT 'Now Insert into the Sources table'
+GO
 TRUNCATE TABLE Portfolio.[source] 
 INSERT INTO Portfolio.Sources (Job_Candidates)
 SELECT DISTINCT [source]
@@ -21,6 +24,7 @@ GO
 
 
 PRINT 'Now Insert into the target Job Candidates table'
+GO
 TRUNCATE TABLE Portfolio.Job_Candidates 
 INSERT INTO Portfolio.Job_Candidates 
 		 (OccupationID
@@ -55,6 +59,7 @@ GO
 
 
 PRINT 'Update placement fullnames from the source candidate table'
+GO
 UPDATE jc
 SET PlacementFullName = CONCAT(ISNULL(c.First_Name,''), ' ', ISNULL(c.Middle_Name,''), ' ', ISNULL(c.Last_Name,''))
 FROM Portfolio.Job_Candidates jc
@@ -63,6 +68,7 @@ GO
 
 
 PRINT 'Update placement StatusIDs'
+GO
 UPDATE jc
 SET StatusID = st.[statusID]
 FROM Portfolio.Job_Candidates jc
@@ -72,6 +78,7 @@ GO
 
 
 PRINT 'Update placement SourceIDs'
+GO
 UPDATE jc
 SET SourceID = st.[sourceID]
 FROM Portfolio.Job_Candidates jc
